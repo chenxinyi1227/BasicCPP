@@ -17,7 +17,7 @@ int main()
 {
     #if 0
     vector<int> myvec;//int a  vector<int>类型 myvec变量
-    myvec.push_back(5);//压栈:插入数据
+    myvec.push_back(5);//插入数据
     int size = myvec.size();
     int capacity = myvec.capacity();
     printf("size:%d\n", size);
