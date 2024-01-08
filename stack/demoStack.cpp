@@ -12,7 +12,7 @@ typedef struct Stu_info
     char name[BUFFER_SIZE];
 }Stu_info;
 
-
+/* 根据动态数组 */
 int main()
 {
     #if 0
