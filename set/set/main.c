@@ -39,8 +39,8 @@ int main()
     setTraverse(SET);
     printf("\n");
     /* 包含特定元素 */
-    printf("包含特定元素\n");
     int val = 21;
+    printf("是否包含特定元素:%d\n", val);
     int fd= setIsContainAppointVal(SET, (void *)&val);
     if(fd)
     {
@@ -53,7 +53,7 @@ int main()
 
     int delVal = 11;
     setDelAppointVal(SET, (void*)&delVal);
-    printf("删除指定元素%d\n", delVal);
+    printf("删除指定元素:%d\n", delVal);
     setTraverse(SET);
     printf("\n");
 
