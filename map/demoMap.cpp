@@ -2,13 +2,15 @@
 using namespace std;
 #include <stdio.h>
 #include <map>
+#include <string.h>
+
+#define BUFFER_SIZE 10
 
 typedef struct stuInfo
 {
     int age;
-    int height;
-    int weight;
     int sex;
+    char address[BUFFER_SIZE];
 }stuInfo;
 
 int main()
@@ -21,10 +23,14 @@ int main()
 
 
     stuInfo info;
+    memset(&info, 0, sizeof(stuInfo));
+
     info.age = 20;
     info.sex = 'm';
     map<string, stuInfo> mymap2;
     mymap2["xiaozhou"] = info;
     printf("xiaozhou age :%d sex:%c\n", mymap2["xiaohou"].age, mymap2["xiaozhou"].sex);
+
+
     return 0;
 }
