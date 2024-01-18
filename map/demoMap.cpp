@@ -31,6 +31,5 @@ int main()
     mymap2["xiaozhou"] = info;
     printf("xiaozhou age :%d sex:%c\n", mymap2["xiaohou"].age, mymap2["xiaozhou"].sex);
 
-
     return 0;
 }
