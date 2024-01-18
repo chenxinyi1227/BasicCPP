@@ -3,7 +3,7 @@ using namespace std;
 #include <stdio.h>
 #include <map>
 #include <string.h>
-
+/* 映射 */
 #define BUFFER_SIZE 10
 
 typedef struct stuInfo
